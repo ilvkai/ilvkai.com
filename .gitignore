@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local editor and temporary files
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# Future build outputs, if this static site is later migrated to Astro/Next/etc.
+dist/
+build/
+node_modules/
