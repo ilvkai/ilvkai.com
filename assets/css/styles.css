@@ -197,7 +197,8 @@ a:hover {
 
 .page-section h3,
 .publication-item h2,
-.publication-item h3 {
+.publication-item h3,
+.publication-item h4 {
   margin: 0 0 8px;
   line-height: 1.35;
 }
@@ -252,7 +253,7 @@ a:hover {
 
 .news-list li {
   display: grid;
-  grid-template-columns: 92px minmax(0, 1fr);
+  grid-template-columns: 112px minmax(0, 1fr);
   gap: 14px;
   padding: 14px 0;
   border-bottom: 1px solid var(--line);
@@ -304,6 +305,20 @@ a:hover {
   gap: 12px;
 }
 
+.publication-group {
+  margin-top: 26px;
+}
+
+.publication-group:first-of-type {
+  margin-top: 18px;
+}
+
+.publication-group > h3 {
+  margin-bottom: 12px;
+  color: var(--accent-dark);
+  font-size: 1.15rem;
+}
+
 .publication-item {
   padding: 18px;
   background: var(--surface);
@@ -320,6 +335,10 @@ a:hover {
 }
 
 .publication-item h3 {
+  font-size: 1rem;
+}
+
+.publication-item h4 {
   font-size: 1rem;
 }
 
