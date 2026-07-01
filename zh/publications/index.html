@@ -15,202 +15,317 @@
   <body>
     <a class="skip-link" href="#main">跳转到正文</a>
     <header class="topbar">
-      <a class="brand" href="../">吕凯</a>
-      <nav class="topnav" aria-label="论文页导航">
-        <a href="../">中文主页</a>
-        <a href="../admissions/">招生</a>
-        <a aria-current="page" href="./">论文</a>
-        <a href="../../">English</a>
-      </nav>
+      <div class="topbar-inner">
+        <a class="brand" href="../">吕凯</a>
+        <nav class="topnav" aria-label="论文页导航">
+          <a href="../">中文主页</a>
+          <a href="../admissions/">招生</a>
+          <a aria-current="page" href="./">论文</a>
+          <a class="language-link" href="../../">English</a>
+        </nav>
+      </div>
     </header>
 
-    <main class="theme-shell" id="main">
-      <section class="theme-hero">
-        <p class="eyebrow">论文主题</p>
-        <h1>按研究方向整理论文成果</h1>
-        <p>
-          本页与中文官方主页的研究方向保持一致，按具身智能操控、多智能体集群协同、
-          目标重识别三个方向展示论文成果。作者列表中加粗显示吕凯老师，* 表示通讯作者。
-        </p>
-      </section>
+    <main class="page-shell" id="main">
+      <aside class="sidebar" aria-label="个人信息">
+        <section class="profile-card">
+          <div class="profile-card-body">
+            <img class="profile-portrait" src="../../assets/img/kai-lv-avatar.svg" alt="吕凯个人标识" />
+            <div>
+              <h1 class="profile-name">吕凯 <small>Kai Lv</small></h1>
+              <p class="profile-position">副教授</p>
+              <p class="profile-affiliation">
+                北京交通大学<br />
+                计算机科学与技术学院
+              </p>
+              <p class="profile-email"><a href="mailto:lvkai@bjtu.edu.cn">lvkai@bjtu.edu.cn</a></p>
+              <div class="profile-links" aria-label="个人链接">
+                <a href="../admissions/">招生</a>
+                <a href="https://faculty.bjtu.edu.cn/10107/" rel="noopener">BJTU</a>
+              </div>
+            </div>
+            <p class="profile-note">
+              论文按具身智能操控、多智能体集群协同、目标重识别三个方向整理。
+            </p>
+          </div>
+        </section>
+      </aside>
 
-      <section class="page-section">
-        <div class="filter-bar" role="group" aria-label="论文方向筛选">
-          <button class="filter-button active" type="button" data-filter="all">全部</button>
-          <button class="filter-button" type="button" data-filter="embodied">具身智能操控</button>
-          <button class="filter-button" type="button" data-filter="multiagent">多智能体集群协同</button>
-          <button class="filter-button" type="button" data-filter="reid">目标重识别</button>
-        </div>
-        <p class="result-count" data-result-count></p>
+      <article class="content-flow">
+        <section class="hero-card">
+          <p class="eyebrow">Publications</p>
+          <h1>按研究方向整理论文成果</h1>
+          <p>
+            本页与中文官方主页的研究方向保持一致，按具身智能操控、多智能体集群协同、
+            目标重识别三个方向展示论文成果。作者列表中加粗显示吕凯老师，* 表示通讯作者。
+          </p>
+        </section>
 
-        <div class="publication-list" data-publication-list>
-          <article class="publication-item" data-topic="embodied">
-            <span class="venue">CVPR 2026</span>
-            <h2>Local Motion Matters: A Deconstruct-Recompose Paradigm for Reinforcement Learning Pre-training from Videos</h2>
-            <p class="publication-authors">Jinwen Wang, Youfang Lin, Xiaobo Hu, Shuo Wang, <strong>Kai Lv</strong></p>
-            <p>方向：具身智能操控。关键词：视觉强化学习、视频预训练、局部运动。</p>
-          </article>
-          <article class="publication-item" data-topic="embodied">
-            <span class="venue">NN 2025</span>
-            <h2>Bidirectional Transition Consistency between Multi-Domain Observations for Visual Reinforcement Learning Generalization</h2>
-            <p class="publication-authors">Xiaobo Hu, Youfang Lin, Jinwen Wang, Yue Liu, Shuo Wang, Hehe Fan, <strong>Kai Lv*</strong></p>
-            <p>方向：具身智能操控。关键词：视觉强化学习、泛化、多域观测。</p>
-          </article>
-          <article class="publication-item" data-topic="embodied">
-            <span class="venue">TOMM 2025</span>
-            <h2>Learning Robust Representations via Bidirectional Transition for Visual Reinforcement Learning</h2>
-            <p class="publication-authors">Xiaobo Hu, Youfang Lin, Jinwen Wang, Yue Liu, Shuo Wang, Hehe Fan, <strong>Kai Lv*</strong></p>
-            <p>方向：具身智能操控。关键词：鲁棒表征、双向转移、视觉强化学习。</p>
-          </article>
-          <article class="publication-item" data-topic="embodied">
-            <span class="venue">ACM MM 2025</span>
-            <h2>From Pixels to Temporal Correlations: Learning Informative Representations for Reinforcement Learning Pre-training</h2>
-            <p class="publication-authors">Jinwen Wang, Youfang Lin, Xiaobo Hu, Siyu Yang, Sheng Han, Shuo Wang, <strong>Kai Lv</strong></p>
-            <p>方向：具身智能操控。关键词：强化学习预训练、时序相关、视觉表征。</p>
-          </article>
-          <article class="publication-item" data-topic="embodied">
-            <span class="venue">IJCAI 2024</span>
-            <h2>How to Learn Domain-Invariant Representations for Visual Reinforcement Learning: An Information-Theoretical Perspective</h2>
-            <p class="publication-authors">Shuo Wang, Zhihao Wu, Xiaobo Hu, Jinwen Wang, Youfang Lin, <strong>Kai Lv*</strong></p>
-            <p>方向：具身智能操控。关键词：域不变表征、信息论、视觉强化学习。</p>
-          </article>
-          <article class="publication-item" data-topic="embodied">
-            <span class="venue">AAAI 2024</span>
-            <h2>What Effects the Generalization in Visual Reinforcement Learning: Policy Consistency with Truncated Return Prediction</h2>
-            <p class="publication-authors">Shuo Wang, Zhihao Wu, Xiaobo Hu, Jinwen Wang, Youfang Lin, <strong>Kai Lv*</strong></p>
-            <p>方向：具身智能操控。关键词：策略一致性、截断回报预测、泛化。</p>
-          </article>
-          <article class="publication-item" data-topic="embodied">
-            <span class="venue">TOMM 2024</span>
-            <h2>Building Category Graphs Representation with Spatial and Temporal Attention for Visual Navigation</h2>
-            <p class="publication-authors">Xiaobo Hu, Youfang Lin, Hehe Fan, Shuo Wang, Zhihao Wu, <strong>Kai Lv*</strong></p>
-            <p>方向：具身智能操控。关键词：视觉导航、类别图、时空注意力。</p>
-          </article>
-          <article class="publication-item" data-topic="embodied">
-            <span class="venue">TCSVT 2023</span>
-            <h2>Agent-Centric Relation Graph for Object Visual Navigation</h2>
-            <p class="publication-authors">Xiaobo Hu, Youfang Lin, Shuo Wang, Zhihao Wu, <strong>Kai Lv*</strong></p>
-            <p>方向：具身智能操控。关键词：目标视觉导航、关系图、智能体中心建模。</p>
-          </article>
-          <article class="publication-item" data-topic="embodied">
-            <span class="venue">TMM 2023</span>
-            <h2>Skill-based Hierarchical Reinforcement Learning for Target Visual Navigation</h2>
-            <p class="publication-authors">Shuo Wang, Zhihao Wu, Xiaobo Hu, Youfang Lin, <strong>Kai Lv*</strong></p>
-            <p>方向：具身智能操控。关键词：层次强化学习、技能学习、视觉导航。</p>
-          </article>
+        <section class="content-card">
+          <div class="card-heading">
+            <h2>论文列表</h2>
+            <a href="https://faculty.bjtu.edu.cn/10107/" rel="noopener">官方主页</a>
+          </div>
+          <div class="card-body">
+            <div class="filter-bar" role="group" aria-label="论文方向筛选">
+              <button class="filter-button active" type="button" data-filter="all">全部</button>
+              <button class="filter-button" type="button" data-filter="embodied">具身智能操控</button>
+              <button class="filter-button" type="button" data-filter="multiagent">多智能体集群协同</button>
+              <button class="filter-button" type="button" data-filter="reid">目标重识别</button>
+            </div>
+            <p class="result-count" data-result-count></p>
+          </div>
 
-          <article class="publication-item" data-topic="multiagent">
-            <span class="venue">ICML 2026</span>
-            <h2>Role-Level Inductive Bias for Cross-Task Generalization in Multi-Agent Reinforcement Learning</h2>
-            <p class="publication-authors">Chang Yao, Youfang Lin, Shoucheng Song, Hao Wu, Yuqing Ma, <strong>Kai Lv*</strong></p>
-            <p>方向：多智能体集群协同。关键词：角色归纳偏置、跨任务泛化、多智能体强化学习。</p>
-          </article>
-          <article class="publication-item" data-topic="multiagent">
-            <span class="venue">AAAI 2026</span>
-            <h2>Think How Your Teammates Think: Active Inference Can Benefit Decentralized Execution</h2>
-            <p class="publication-authors">Hao Wu, Shoucheng Song, Chang Yao, Sheng Han, Huaiyu Wan, Youfang Lin, <strong>Kai Lv*</strong></p>
-            <p>方向：多智能体集群协同。关键词：主动推理、去中心化执行、协作决策。</p>
-          </article>
-          <article class="publication-item" data-topic="multiagent">
-            <span class="venue">IJCAI 2025</span>
-            <h2>From General Relation Patterns to Task-Specific Decision-Making in Continual Multi-Agent Coordination</h2>
-            <p class="publication-authors">Chang Yao, Youfang Lin, Shoucheng Song, Hao Wu, Yuqing Ma, Sheng Han, <strong>Kai Lv*</strong></p>
-            <p>方向：多智能体集群协同。关键词：关系模式、持续多智能体协同、任务特定决策。</p>
-          </article>
-          <article class="publication-item" data-topic="multiagent">
-            <span class="venue">AAAI 2025</span>
-            <h2>CoDe: Communication Delay-Tolerant Multi-Agent Collaboration via Dual Alignment of Intent and Timeliness</h2>
-            <p class="publication-authors">Shoucheng Song, Youfang Lin, Sheng Han, Chang Yao, Hao Wu, Shuo Wang, <strong>Kai Lv*</strong></p>
-            <p>方向：多智能体集群协同。关键词：通信延迟容忍、意图对齐、时效性对齐。</p>
-          </article>
-          <article class="publication-item" data-topic="multiagent">
-            <span class="venue">TSMC-S 2025</span>
-            <h2>Off-policy Conservative Distributional Reinforcement Learning with Safety Constraints</h2>
-            <p class="publication-authors">Hengrui Zhang, Youfang Lin, Shuo Shen, Sheng Han, <strong>Kai Lv*</strong></p>
-            <p>方向：多智能体集群协同。关键词：安全约束、分布式强化学习、离策略学习。</p>
-          </article>
-          <article class="publication-item" data-topic="multiagent">
-            <span class="venue">AAAI 2024</span>
-            <h2>Enhancing Off-policy Constrained Reinforcement Learning through Adaptive Ensemble C Estimation</h2>
-            <p class="publication-authors">Hengrui Zhang, Youfang Lin, Shuo Shen, Sheng Han, <strong>Kai Lv*</strong></p>
-            <p>方向：多智能体集群协同。关键词：约束强化学习、自适应集成估计、离策略学习。</p>
-          </article>
-          <article class="publication-item" data-topic="multiagent">
-            <span class="venue">KSEM 2023</span>
-            <h2>Offline Reinforcement Learning with Diffusion-Based Behavior Cloning Term</h2>
-            <p class="publication-authors">Han Wang, Youfang Lin, Sheng Han, <strong>Kai Lv*</strong></p>
-            <p>方向：多智能体集群协同。关键词：离线强化学习、扩散模型、行为克隆。</p>
-          </article>
-          <article class="publication-item" data-topic="multiagent">
-            <span class="venue">TVT 2022</span>
-            <h2>Lexicographic Actor-Critic Deep Reinforcement Learning for Urban Autonomous Driving</h2>
-            <p class="publication-authors">Hengrui Zhang, Youfang Lin, Sheng Han, <strong>Kai Lv*</strong></p>
-            <p>方向：多智能体集群协同。关键词：自动驾驶、字典序策略、深度强化学习。</p>
-          </article>
-          <article class="publication-item" data-topic="multiagent">
-            <span class="venue">Connection Science 2022</span>
-            <h2>A Lightweight and Style-Robust Neural Network for Autonomous Driving in End Side Devices</h2>
-            <p class="publication-authors">Sheng Han, Youfang Lin, Zhihui Guo, <strong>Kai Lv*</strong></p>
-            <p>方向：多智能体集群协同。关键词：自动驾驶、端侧设备、轻量级网络。</p>
-          </article>
+          <div class="publication-list" data-publication-list>
+            <article class="publication-item" data-topic="embodied">
+              <div class="publication-cover">CVPR 2026</div>
+              <div class="publication-content">
+                <span class="venue">CVPR 2026</span>
+                <h2>Local Motion Matters: A Deconstruct-Recompose Paradigm for Reinforcement Learning Pre-training from Videos</h2>
+                <p class="publication-authors">Jinwen Wang, Youfang Lin, Xiaobo Hu, Shuo Wang, <strong>Kai Lv</strong></p>
+                <p>方向：具身智能操控。关键词：视觉强化学习、视频预训练、局部运动。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="embodied">
+              <div class="publication-cover">NN 2025</div>
+              <div class="publication-content">
+                <span class="venue">NN 2025</span>
+                <h2>Bidirectional Transition Consistency between Multi-Domain Observations for Visual Reinforcement Learning Generalization</h2>
+                <p class="publication-authors">Xiaobo Hu, Youfang Lin, Jinwen Wang, Yue Liu, Shuo Wang, Hehe Fan, <strong>Kai Lv*</strong></p>
+                <p>方向：具身智能操控。关键词：视觉强化学习、泛化、多域观测。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="embodied">
+              <div class="publication-cover">TOMM 2025</div>
+              <div class="publication-content">
+                <span class="venue">TOMM 2025</span>
+                <h2>Learning Robust Representations via Bidirectional Transition for Visual Reinforcement Learning</h2>
+                <p class="publication-authors">Xiaobo Hu, Youfang Lin, Jinwen Wang, Yue Liu, Shuo Wang, Hehe Fan, <strong>Kai Lv*</strong></p>
+                <p>方向：具身智能操控。关键词：鲁棒表征、双向转移、视觉强化学习。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="embodied">
+              <div class="publication-cover">ACM MM 2025</div>
+              <div class="publication-content">
+                <span class="venue">ACM MM 2025</span>
+                <h2>From Pixels to Temporal Correlations: Learning Informative Representations for Reinforcement Learning Pre-training</h2>
+                <p class="publication-authors">Jinwen Wang, Youfang Lin, Xiaobo Hu, Siyu Yang, Sheng Han, Shuo Wang, <strong>Kai Lv</strong></p>
+                <p>方向：具身智能操控。关键词：强化学习预训练、时序相关、视觉表征。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="embodied">
+              <div class="publication-cover">IJCAI 2024</div>
+              <div class="publication-content">
+                <span class="venue">IJCAI 2024</span>
+                <h2>How to Learn Domain-Invariant Representations for Visual Reinforcement Learning: An Information-Theoretical Perspective</h2>
+                <p class="publication-authors">Shuo Wang, Zhihao Wu, Xiaobo Hu, Jinwen Wang, Youfang Lin, <strong>Kai Lv*</strong></p>
+                <p>方向：具身智能操控。关键词：域不变表征、信息论、视觉强化学习。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="embodied">
+              <div class="publication-cover">AAAI 2024</div>
+              <div class="publication-content">
+                <span class="venue">AAAI 2024</span>
+                <h2>What Effects the Generalization in Visual Reinforcement Learning: Policy Consistency with Truncated Return Prediction</h2>
+                <p class="publication-authors">Shuo Wang, Zhihao Wu, Xiaobo Hu, Jinwen Wang, Youfang Lin, <strong>Kai Lv*</strong></p>
+                <p>方向：具身智能操控。关键词：策略一致性、截断回报预测、泛化。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="embodied">
+              <div class="publication-cover">TOMM 2024</div>
+              <div class="publication-content">
+                <span class="venue">TOMM 2024</span>
+                <h2>Building Category Graphs Representation with Spatial and Temporal Attention for Visual Navigation</h2>
+                <p class="publication-authors">Xiaobo Hu, Youfang Lin, Hehe Fan, Shuo Wang, Zhihao Wu, <strong>Kai Lv*</strong></p>
+                <p>方向：具身智能操控。关键词：视觉导航、类别图、时空注意力。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="embodied">
+              <div class="publication-cover">TCSVT 2023</div>
+              <div class="publication-content">
+                <span class="venue">TCSVT 2023</span>
+                <h2>Agent-Centric Relation Graph for Object Visual Navigation</h2>
+                <p class="publication-authors">Xiaobo Hu, Youfang Lin, Shuo Wang, Zhihao Wu, <strong>Kai Lv*</strong></p>
+                <p>方向：具身智能操控。关键词：目标视觉导航、关系图、智能体中心建模。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="embodied">
+              <div class="publication-cover">TMM 2023</div>
+              <div class="publication-content">
+                <span class="venue">TMM 2023</span>
+                <h2>Skill-based Hierarchical Reinforcement Learning for Target Visual Navigation</h2>
+                <p class="publication-authors">Shuo Wang, Zhihao Wu, Xiaobo Hu, Youfang Lin, <strong>Kai Lv*</strong></p>
+                <p>方向：具身智能操控。关键词：层次强化学习、技能学习、视觉导航。</p>
+              </div>
+            </article>
 
-          <article class="publication-item" data-topic="reid">
-            <span class="venue">TMM 2026</span>
-            <h2>Let Confidence Speak: Combining Small and Large Models via Pseudo Labeling for Unsupervised Domain Adaptation</h2>
-            <p class="publication-authors">Huiqi Yang, Ying Shu, Hehe Fan, Youfang Lin, <strong>Kai Lv*</strong></p>
-            <p>方向：目标重识别。关键词：无监督域适应、伪标签、小模型与大模型协同。</p>
-          </article>
-          <article class="publication-item" data-topic="reid">
-            <span class="venue">AAAI 2025</span>
-            <h2>Infer the Whole from a Glimpse of a Part: Keypoint-based Knowledge Graph for Vehicle Re-identification</h2>
-            <p class="publication-authors"><strong>Kai Lv</strong>, Yunlong Li, Zhuo Chen, Shuo Wang, Sheng Han, Youfang Lin*</p>
-            <p>方向：目标重识别。关键词：车辆重识别、关键点知识图谱、局部到整体推理。</p>
-          </article>
-          <article class="publication-item" data-topic="reid">
-            <span class="venue">TOMM 2024</span>
-            <h2>Style Variable and Irrelevant Learning for Generalizable Person Re-identification</h2>
-            <p class="publication-authors"><strong>Kai Lv</strong>, Haobo Chen, Chuyang Zhao, Kai Tu, Junru Chen, Yadong Li, Boxun Li, Youfang Lin*</p>
-            <p>方向：目标重识别。关键词：泛化行人重识别、风格变量、无关信息学习。</p>
-          </article>
-          <article class="publication-item" data-topic="reid">
-            <span class="venue">TITS 2023</span>
-            <h2>Spatially-Regularized Features for Vehicle Re-identification: An Explanation of Where Deep Models Should Focus</h2>
-            <p class="publication-authors"><strong>Kai Lv</strong>, Shuo Wang, Shuai Han, Youfang Lin*</p>
-            <p>方向：目标重识别。关键词：车辆重识别、空间正则化、模型可解释性。</p>
-          </article>
-          <article class="publication-item" data-topic="reid">
-            <span class="venue">IJCAI Workshop 2023</span>
-            <h2>Generalization between Different Viewpoints with A Feature Selection Method for Vehicle Re-identification</h2>
-            <p class="publication-authors"><strong>Kai Lv</strong>, Shuai Han, Youfang Lin</p>
-            <p>方向：目标重识别。关键词：车辆重识别、跨视角泛化、特征选择。</p>
-          </article>
-          <article class="publication-item" data-topic="reid">
-            <span class="venue">TIP 2020</span>
-            <h2>Pose-Based View Synthesis for Vehicles: A Perspective Aware Method</h2>
-            <p class="publication-authors"><strong>Kai Lv</strong>, Hao Sheng, Zhang Xiong, Wei Li, Liang Zheng</p>
-            <p>方向：目标重识别。关键词：车辆重识别、姿态建模、视角合成。</p>
-          </article>
-          <article class="publication-item" data-topic="reid">
-            <span class="venue">TMM 2020</span>
-            <h2>Improving Driver Gaze Prediction with Reinforced Attention</h2>
-            <p class="publication-authors"><strong>Kai Lv</strong>, Hao Sheng, Zhang Xiong, Wei Li, Liang Zheng</p>
-            <p>方向：目标重识别。关键词：驾驶员视线预测、强化注意力、多媒体理解。</p>
-          </article>
-          <article class="publication-item" data-topic="reid">
-            <span class="venue">JIOT 2020</span>
-            <h2>Combining Pose Invariant and Discriminative Features for Vehicle Reidentification</h2>
-            <p class="publication-authors">Hao Sheng, <strong>Kai Lv*</strong>, Yang Liu, Wei Ke, Weifeng Lyu, Zhang Xiong, Wei Li</p>
-            <p>方向：目标重识别。关键词：车辆重识别、姿态不变特征、判别性特征。</p>
-          </article>
-          <article class="publication-item" data-topic="reid">
-            <span class="venue">CVPR Challenge 2019</span>
-            <h2>Vehicle Re-Identification with Location and Time Stamps</h2>
-            <p class="publication-authors"><strong>Kai Lv</strong>, Heming Du, Yunzhong Hou, Weijian Deng, Hao Sheng, Jianbin Jiao, Liang Zheng</p>
-            <p>方向：目标重识别。关键词：车辆重识别、位置与时间戳、竞赛方案。</p>
-          </article>
-        </div>
-        <p class="author-note">* 表示通讯作者。</p>
-      </section>
+            <article class="publication-item" data-topic="multiagent">
+              <div class="publication-cover alt">ICML 2026</div>
+              <div class="publication-content">
+                <span class="venue">ICML 2026</span>
+                <h2>Role-Level Inductive Bias for Cross-Task Generalization in Multi-Agent Reinforcement Learning</h2>
+                <p class="publication-authors">Chang Yao, Youfang Lin, Shoucheng Song, Hao Wu, Yuqing Ma, <strong>Kai Lv*</strong></p>
+                <p>方向：多智能体集群协同。关键词：角色归纳偏置、跨任务泛化、多智能体强化学习。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="multiagent">
+              <div class="publication-cover alt">AAAI 2026</div>
+              <div class="publication-content">
+                <span class="venue">AAAI 2026</span>
+                <h2>Think How Your Teammates Think: Active Inference Can Benefit Decentralized Execution</h2>
+                <p class="publication-authors">Hao Wu, Shoucheng Song, Chang Yao, Sheng Han, Huaiyu Wan, Youfang Lin, <strong>Kai Lv*</strong></p>
+                <p>方向：多智能体集群协同。关键词：主动推理、去中心化执行、协作决策。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="multiagent">
+              <div class="publication-cover alt">IJCAI 2025</div>
+              <div class="publication-content">
+                <span class="venue">IJCAI 2025</span>
+                <h2>From General Relation Patterns to Task-Specific Decision-Making in Continual Multi-Agent Coordination</h2>
+                <p class="publication-authors">Chang Yao, Youfang Lin, Shoucheng Song, Hao Wu, Yuqing Ma, Sheng Han, <strong>Kai Lv*</strong></p>
+                <p>方向：多智能体集群协同。关键词：关系模式、持续多智能体协同、任务特定决策。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="multiagent">
+              <div class="publication-cover alt">AAAI 2025</div>
+              <div class="publication-content">
+                <span class="venue">AAAI 2025</span>
+                <h2>CoDe: Communication Delay-Tolerant Multi-Agent Collaboration via Dual Alignment of Intent and Timeliness</h2>
+                <p class="publication-authors">Shoucheng Song, Youfang Lin, Sheng Han, Chang Yao, Hao Wu, Shuo Wang, <strong>Kai Lv*</strong></p>
+                <p>方向：多智能体集群协同。关键词：通信延迟容忍、意图对齐、时效性对齐。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="multiagent">
+              <div class="publication-cover alt">TSMC-S 2025</div>
+              <div class="publication-content">
+                <span class="venue">TSMC-S 2025</span>
+                <h2>Off-policy Conservative Distributional Reinforcement Learning with Safety Constraints</h2>
+                <p class="publication-authors">Hengrui Zhang, Youfang Lin, Shuo Shen, Sheng Han, <strong>Kai Lv*</strong></p>
+                <p>方向：多智能体集群协同。关键词：安全约束、分布式强化学习、离策略学习。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="multiagent">
+              <div class="publication-cover alt">AAAI 2024</div>
+              <div class="publication-content">
+                <span class="venue">AAAI 2024</span>
+                <h2>Enhancing Off-policy Constrained Reinforcement Learning through Adaptive Ensemble C Estimation</h2>
+                <p class="publication-authors">Hengrui Zhang, Youfang Lin, Shuo Shen, Sheng Han, <strong>Kai Lv*</strong></p>
+                <p>方向：多智能体集群协同。关键词：约束强化学习、自适应集成估计、离策略学习。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="multiagent">
+              <div class="publication-cover alt">KSEM 2023</div>
+              <div class="publication-content">
+                <span class="venue">KSEM 2023</span>
+                <h2>Offline Reinforcement Learning with Diffusion-Based Behavior Cloning Term</h2>
+                <p class="publication-authors">Han Wang, Youfang Lin, Sheng Han, <strong>Kai Lv*</strong></p>
+                <p>方向：多智能体集群协同。关键词：离线强化学习、扩散模型、行为克隆。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="multiagent">
+              <div class="publication-cover alt">TVT 2022</div>
+              <div class="publication-content">
+                <span class="venue">TVT 2022</span>
+                <h2>Lexicographic Actor-Critic Deep Reinforcement Learning for Urban Autonomous Driving</h2>
+                <p class="publication-authors">Hengrui Zhang, Youfang Lin, Sheng Han, <strong>Kai Lv*</strong></p>
+                <p>方向：多智能体集群协同。关键词：自动驾驶、字典序策略、深度强化学习。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="multiagent">
+              <div class="publication-cover alt">Connection Science 2022</div>
+              <div class="publication-content">
+                <span class="venue">Connection Science 2022</span>
+                <h2>A Lightweight and Style-Robust Neural Network for Autonomous Driving in End Side Devices</h2>
+                <p class="publication-authors">Sheng Han, Youfang Lin, Zhihui Guo, <strong>Kai Lv*</strong></p>
+                <p>方向：多智能体集群协同。关键词：自动驾驶、端侧设备、轻量级网络。</p>
+              </div>
+            </article>
+
+            <article class="publication-item" data-topic="reid">
+              <div class="publication-cover warm">TMM 2026</div>
+              <div class="publication-content">
+                <span class="venue">TMM 2026</span>
+                <h2>Let Confidence Speak: Combining Small and Large Models via Pseudo Labeling for Unsupervised Domain Adaptation</h2>
+                <p class="publication-authors">Huiqi Yang, Ying Shu, Hehe Fan, Youfang Lin, <strong>Kai Lv*</strong></p>
+                <p>方向：目标重识别。关键词：无监督域适应、伪标签、小模型与大模型协同。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="reid">
+              <div class="publication-cover warm">AAAI 2025</div>
+              <div class="publication-content">
+                <span class="venue">AAAI 2025</span>
+                <h2>Infer the Whole from a Glimpse of a Part: Keypoint-based Knowledge Graph for Vehicle Re-identification</h2>
+                <p class="publication-authors"><strong>Kai Lv</strong>, Yunlong Li, Zhuo Chen, Shuo Wang, Sheng Han, Youfang Lin*</p>
+                <p>方向：目标重识别。关键词：车辆重识别、关键点知识图谱、局部到整体推理。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="reid">
+              <div class="publication-cover warm">TOMM 2024</div>
+              <div class="publication-content">
+                <span class="venue">TOMM 2024</span>
+                <h2>Style Variable and Irrelevant Learning for Generalizable Person Re-identification</h2>
+                <p class="publication-authors"><strong>Kai Lv</strong>, Haobo Chen, Chuyang Zhao, Kai Tu, Junru Chen, Yadong Li, Boxun Li, Youfang Lin*</p>
+                <p>方向：目标重识别。关键词：泛化行人重识别、风格变量、无关信息学习。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="reid">
+              <div class="publication-cover warm">TITS 2023</div>
+              <div class="publication-content">
+                <span class="venue">TITS 2023</span>
+                <h2>Spatially-Regularized Features for Vehicle Re-identification: An Explanation of Where Deep Models Should Focus</h2>
+                <p class="publication-authors"><strong>Kai Lv</strong>, Shuo Wang, Shuai Han, Youfang Lin*</p>
+                <p>方向：目标重识别。关键词：车辆重识别、空间正则化、模型可解释性。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="reid">
+              <div class="publication-cover warm">IJCAI Workshop 2023</div>
+              <div class="publication-content">
+                <span class="venue">IJCAI Workshop 2023</span>
+                <h2>Generalization between Different Viewpoints with A Feature Selection Method for Vehicle Re-identification</h2>
+                <p class="publication-authors"><strong>Kai Lv</strong>, Shuai Han, Youfang Lin</p>
+                <p>方向：目标重识别。关键词：车辆重识别、跨视角泛化、特征选择。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="reid">
+              <div class="publication-cover warm">TIP 2020</div>
+              <div class="publication-content">
+                <span class="venue">TIP 2020</span>
+                <h2>Pose-Based View Synthesis for Vehicles: A Perspective Aware Method</h2>
+                <p class="publication-authors"><strong>Kai Lv</strong>, Hao Sheng, Zhang Xiong, Wei Li, Liang Zheng</p>
+                <p>方向：目标重识别。关键词：车辆重识别、姿态建模、视角合成。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="reid">
+              <div class="publication-cover warm">TMM 2020</div>
+              <div class="publication-content">
+                <span class="venue">TMM 2020</span>
+                <h2>Improving Driver Gaze Prediction with Reinforced Attention</h2>
+                <p class="publication-authors"><strong>Kai Lv</strong>, Hao Sheng, Zhang Xiong, Wei Li, Liang Zheng</p>
+                <p>方向：目标重识别。关键词：驾驶员视线预测、强化注意力、多媒体理解。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="reid">
+              <div class="publication-cover warm">JIOT 2020</div>
+              <div class="publication-content">
+                <span class="venue">JIOT 2020</span>
+                <h2>Combining Pose Invariant and Discriminative Features for Vehicle Reidentification</h2>
+                <p class="publication-authors">Hao Sheng, <strong>Kai Lv*</strong>, Yang Liu, Wei Ke, Weifeng Lyu, Zhang Xiong, Wei Li</p>
+                <p>方向：目标重识别。关键词：车辆重识别、姿态不变特征、判别性特征。</p>
+              </div>
+            </article>
+            <article class="publication-item" data-topic="reid">
+              <div class="publication-cover warm">CVPR Challenge 2019</div>
+              <div class="publication-content">
+                <span class="venue">CVPR Challenge 2019</span>
+                <h2>Vehicle Re-Identification with Location and Time Stamps</h2>
+                <p class="publication-authors"><strong>Kai Lv</strong>, Heming Du, Yunzhong Hou, Weijian Deng, Hao Sheng, Jianbin Jiao, Liang Zheng</p>
+                <p>方向：目标重识别。关键词：车辆重识别、位置与时间戳、竞赛方案。</p>
+              </div>
+            </article>
+          </div>
+          <p class="author-note">* 表示通讯作者。</p>
+        </section>
+      </article>
     </main>
 
     <footer class="site-footer">

@@ -15,77 +15,124 @@
   <body>
     <a class="skip-link" href="#main">跳转到正文</a>
     <header class="topbar">
-      <a class="brand" href="./">吕凯</a>
-      <nav class="topnav" aria-label="中文主页导航">
-        <a href="./admissions/">招生</a>
-        <a href="./publications/">论文</a>
-        <a href="https://faculty.bjtu.edu.cn/10107/" rel="noopener">官方主页</a>
-        <a class="language-link" href="../">English</a>
-      </nav>
+      <div class="topbar-inner">
+        <a class="brand" href="./">吕凯</a>
+        <nav class="topnav" aria-label="中文主页导航">
+          <a aria-current="page" href="./">主页</a>
+          <a href="./admissions/">招生</a>
+          <a href="./publications/">论文</a>
+          <a href="https://faculty.bjtu.edu.cn/10107/" rel="noopener">官方主页</a>
+          <a class="language-link" href="../">English</a>
+        </nav>
+      </div>
     </header>
 
-    <main class="cn-shell" id="main">
-      <section class="cn-hero">
-        <div>
-          <p class="eyebrow">北京交通大学计算机科学与技术学院</p>
-          <h1>吕凯</h1>
-          <p class="hero-subtitle">
-            副教授，主要研究方向包括具身智能操控、多智能体集群协同、目标重识别。
-          </p>
-          <div class="hero-actions">
-            <a class="primary-action" href="./admissions/">招生信息</a>
-            <a class="secondary-action" href="./publications/">论文方向</a>
+    <main class="page-shell" id="main">
+      <aside class="sidebar" aria-label="个人信息">
+        <section class="profile-card">
+          <div class="profile-card-body">
+            <img class="profile-portrait" src="../assets/img/kai-lv-avatar.svg" alt="吕凯个人标识" />
+            <div>
+              <h1 class="profile-name">吕凯 <small>Kai Lv</small></h1>
+              <p class="profile-position">副教授</p>
+              <p class="profile-affiliation">
+                北京交通大学<br />
+                计算机科学与技术学院
+              </p>
+              <p class="profile-email"><a href="mailto:lvkai@bjtu.edu.cn">lvkai@bjtu.edu.cn</a></p>
+              <div class="profile-links" aria-label="个人链接">
+                <a href="./admissions/">招生</a>
+                <a href="./publications/">论文</a>
+                <a href="https://faculty.bjtu.edu.cn/10107/" rel="noopener">BJTU</a>
+              </div>
+            </div>
+            <p class="profile-note">
+              主要研究方向包括具身智能操控、多智能体集群协同、目标重识别。
+            </p>
           </div>
-        </div>
-        <img
-          class="hero-visual"
-          src="../assets/img/research-map.svg"
-          alt="具身智能、多智能体协同与目标重识别方向示意"
-        />
-      </section>
+        </section>
+      </aside>
 
-      <section class="page-section">
-        <div class="section-heading">
-          <h2>中文主题入口</h2>
-          <a class="small-link" href="../">English homepage</a>
-        </div>
-        <div class="theme-grid">
-          <a class="theme-card" href="./admissions/">
-            <span>招生</span>
-            <h3>博士与硕士招生</h3>
-            <p>面向有志于视觉、强化学习、具身智能、多智能体系统的同学。</p>
-          </a>
-          <a class="theme-card" href="./publications/">
-            <span>论文</span>
-            <h3>按研究方向整理成果</h3>
-            <p>与官方主页方向保持一致，便于学生和合作者快速浏览。</p>
-          </a>
-          <article class="theme-card muted-card">
-            <span>研究</span>
-            <h3>研究主题</h3>
-            <p>后续可扩展为方向介绍、项目展示、代码资源与数据集入口。</p>
-          </article>
-          <article class="theme-card muted-card">
-            <span>大创</span>
-            <h3>本科科研与大创</h3>
-            <p>后续可发布项目方向、报名要求、组会安排与阶段成果。</p>
-          </article>
-        </div>
-      </section>
+      <article class="content-flow">
+        <section class="content-card">
+          <div class="card-heading">
+            <h2>个人简介</h2>
+          </div>
+          <div class="card-body">
+            <div class="research-visual">
+              <div class="bio-text">
+                <h1 class="lead-name"><strong>吕凯</strong> <small>Kai Lv</small></h1>
+                <p>
+                  北京交通大学计算机科学与技术学院副教授。研究方向聚焦学习驱动的智能系统，
+                  包括具身智能操控、多智能体集群协同、目标重识别等。
+                </p>
+                <p>
+                  当前工作关注智能体如何从视觉观测中理解动态场景、与其他智能体协同，并形成可靠决策；
+                  同时关注连接感知、推理与行动的实用学习系统。
+                </p>
+                <div class="quick-links" aria-label="快速链接">
+                  <a href="./admissions/">博士与硕士招生</a>
+                  <a href="./publications/">论文成果</a>
+                  <a href="../">English homepage</a>
+                </div>
+              </div>
+              <img
+                class="research-map"
+                src="../assets/img/research-map.svg"
+                alt="具身智能、多智能体协同与目标重识别方向示意"
+              />
+            </div>
+          </div>
+        </section>
 
-      <section class="page-section">
-        <h2>联系方式</h2>
-        <div class="info-strip">
-          <p>
-            邮箱：
-            <a href="mailto:lvkai@bjtu.edu.cn">lvkai@bjtu.edu.cn</a>
-          </p>
-          <p>
-            官方主页：
-            <a href="https://faculty.bjtu.edu.cn/10107/" rel="noopener">faculty.bjtu.edu.cn/10107</a>
-          </p>
-        </div>
-      </section>
+        <section class="content-card">
+          <div class="card-heading">
+            <h2>中文主题入口</h2>
+          </div>
+          <div class="card-body">
+            <div class="theme-grid">
+              <a class="theme-card" href="./admissions/">
+                <span>Admissions</span>
+                <h3>博士与硕士招生</h3>
+                <p>面向有志于视觉、强化学习、具身智能、多智能体系统的同学。</p>
+              </a>
+              <a class="theme-card" href="./publications/">
+                <span>Publications</span>
+                <h3>按研究方向整理成果</h3>
+                <p>与官方主页方向保持一致，便于学生和合作者快速浏览。</p>
+              </a>
+              <article class="theme-card muted-card">
+                <span>Research</span>
+                <h3>研究主题</h3>
+                <p>后续可扩展为方向介绍、项目展示、代码资源与数据集入口。</p>
+              </article>
+              <article class="theme-card muted-card">
+                <span>Undergraduate</span>
+                <h3>本科科研与大创</h3>
+                <p>后续可发布项目方向、报名要求、组会安排与阶段成果。</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-card">
+          <div class="card-heading">
+            <h2>联系方式</h2>
+          </div>
+          <div class="card-body">
+            <div class="info-strip">
+              <p>
+                邮箱：
+                <a href="mailto:lvkai@bjtu.edu.cn">lvkai@bjtu.edu.cn</a>
+              </p>
+              <p>
+                官方主页：
+                <a href="https://faculty.bjtu.edu.cn/10107/" rel="noopener">faculty.bjtu.edu.cn/10107</a>
+              </p>
+            </div>
+          </div>
+        </section>
+      </article>
     </main>
 
     <footer class="site-footer">

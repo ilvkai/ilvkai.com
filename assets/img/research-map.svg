@@ -1,24 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
   <title id="title">Research map</title>
   <desc id="desc">A research map linking embodied intelligence, multi-agent collaboration, and re-identification.</desc>
-  <rect width="960" height="420" fill="#ffffff" />
-  <path d="M0 330C135 287 225 323 330 276C441 226 505 123 640 138C752 151 821 235 960 183V420H0Z" fill="#eef4f0" />
-  <path d="M0 70C143 126 247 62 355 101C482 147 501 250 640 246C755 243 824 166 960 205V0H0Z" fill="#f5f1e8" />
-  <line x1="270" y1="210" x2="480" y2="120" stroke="#d9ded6" stroke-width="4" />
-  <line x1="480" y1="120" x2="680" y2="220" stroke="#d9ded6" stroke-width="4" />
-  <line x1="270" y1="210" x2="680" y2="220" stroke="#d9ded6" stroke-width="4" />
-  <circle cx="270" cy="210" r="76" fill="#2d6f59" />
-  <circle cx="480" cy="120" r="76" fill="#8a4b39" />
-  <circle cx="680" cy="220" r="76" fill="#1f4d3e" />
-  <text x="270" y="200" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" fill="#ffffff">Embodied</text>
-  <text x="270" y="232" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#ffffff">AI</text>
-  <text x="480" y="110" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" fill="#ffffff">Multi-Agent</text>
-  <text x="480" y="142" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#ffffff">Learning</text>
-  <text x="680" y="210" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" fill="#ffffff">Object</text>
-  <text x="680" y="242" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#ffffff">Re-ID</text>
-  <g fill="none" stroke="#202124" stroke-opacity="0.5" stroke-width="2">
-    <path d="M188 318c54 22 105 21 154-2" />
-    <path d="M405 270c58 24 117 24 177 0" />
-    <path d="M620 338c48 18 98 16 150-6" />
+  <rect width="960" height="420" rx="18" fill="#ffffff" />
+  <rect x="24" y="24" width="912" height="372" rx="16" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2" />
+  <path d="M92 308C202 252 317 278 416 222C526 160 625 118 748 158C815 180 858 218 896 260" fill="none" stroke="#dbeafe" stroke-width="36" stroke-linecap="round" />
+  <path d="M126 284C250 224 340 245 452 188C562 132 658 126 798 196" fill="none" stroke="#0d6efd" stroke-opacity="0.48" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 12" />
+  <line x1="270" y1="220" x2="480" y2="128" stroke="#c7d2fe" stroke-width="4" />
+  <line x1="480" y1="128" x2="690" y2="226" stroke="#c7d2fe" stroke-width="4" />
+  <line x1="270" y1="220" x2="690" y2="226" stroke="#c7d2fe" stroke-width="4" />
+  <g>
+    <rect x="162" y="142" width="216" height="156" rx="22" fill="#0d6efd" />
+    <text x="270" y="204" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" fill="#ffffff">Embodied</text>
+    <text x="270" y="238" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">AI</text>
+  </g>
+  <g>
+    <rect x="372" y="52" width="216" height="156" rx="22" fill="#198754" />
+    <text x="480" y="116" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Multi-Agent</text>
+    <text x="480" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Learning</text>
+  </g>
+  <g>
+    <rect x="582" y="148" width="216" height="156" rx="22" fill="#6f42c1" />
+    <text x="690" y="212" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Object</text>
+    <text x="690" y="246" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Re-ID</text>
+  </g>
+  <g fill="#475569" opacity="0.65">
+    <circle cx="114" cy="108" r="7" />
+    <circle cx="844" cy="112" r="7" />
+    <circle cx="178" cy="344" r="7" />
+    <circle cx="806" cy="336" r="7" />
   </g>
 </svg>

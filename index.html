@@ -15,320 +15,452 @@
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="topbar">
-      <a class="brand" href="./">Kai Lv</a>
-      <nav class="topnav" aria-label="Primary navigation">
-        <a href="#about">About me</a>
-        <a href="#news">News</a>
-        <a href="#experience">Working Experience</a>
-        <a href="#publications">Publications</a>
-        <a class="language-link" href="./zh/">中文</a>
-      </nav>
+      <div class="topbar-inner">
+        <a class="brand" href="./">Kai Lv</a>
+        <nav class="topnav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#experience">Experience</a>
+          <a href="#publications">Publications</a>
+          <a class="language-link" href="./zh/">中文</a>
+        </nav>
+      </div>
     </header>
 
-    <main class="academic-shell" id="main">
-      <aside class="profile-panel" aria-label="Profile">
-        <img class="avatar" src="./assets/img/kai-lv-avatar.svg" alt="Kai Lv profile mark" />
-        <h1>Kai Lv</h1>
-        <p class="profile-title">Associate Professor</p>
-        <p class="profile-affiliation">
-          School of Computer Science and Technology<br />
-          Beijing Jiaotong University
-        </p>
-        <div class="profile-links" aria-label="Profile links">
-          <a href="mailto:lvkai@bjtu.edu.cn">lvkai@bjtu.edu.cn</a>
-          <a href="https://faculty.bjtu.edu.cn/10107/" rel="noopener">BJTU official profile</a>
-          <a href="./zh/admissions/">Admissions</a>
-          <a href="./zh/publications/">Publications</a>
-        </div>
+    <main class="page-shell" id="main">
+      <aside class="sidebar" aria-label="Profile">
+        <section class="profile-card">
+          <div class="profile-card-body">
+            <img class="profile-portrait" src="./assets/img/kai-lv-avatar.svg" alt="Kai Lv profile mark" />
+            <div>
+              <h1 class="profile-name">Kai Lv <small>吕凯</small></h1>
+              <p class="profile-position">Associate Professor</p>
+              <p class="profile-affiliation">
+                School of Computer Science and Technology<br />
+                Beijing Jiaotong University
+              </p>
+              <p class="profile-email"><a href="mailto:lvkai@bjtu.edu.cn">lvkai@bjtu.edu.cn</a></p>
+              <div class="profile-links" aria-label="Profile links">
+                <a href="https://faculty.bjtu.edu.cn/10107/" rel="noopener">BJTU</a>
+                <a href="./zh/admissions/">Admissions</a>
+                <a href="./zh/publications/">Publications</a>
+              </div>
+            </div>
+            <p class="profile-note">
+              Research in learning-based intelligent systems, with emphasis on embodied intelligence,
+              multi-agent collaboration, and re-identification.
+            </p>
+          </div>
+        </section>
       </aside>
 
       <article class="content-flow">
-        <section class="page-section" id="about">
-          <p class="eyebrow">Beijing Jiaotong University</p>
-          <h2>About me</h2>
-          <p>
-            I am an Associate Professor with the School of Computer Science and Technology at
-            Beijing Jiaotong University. My research focuses on learning-based intelligent systems,
-            especially embodied intelligent manipulation, multi-agent collaboration, and
-            re-identification.
-          </p>
-          <p>
-            My current work studies how agents understand dynamic scenes, coordinate with other
-            agents, and make reliable decisions from visual observations. I am also interested in
-            practical learning systems that connect perception, reasoning, and action.
-          </p>
-          <img
-            class="research-map"
-            src="./assets/img/research-map.svg"
-            alt="Research map covering embodied intelligence, multi-agent learning, and re-identification"
-          />
+        <section class="content-card" id="about">
+          <div class="card-heading">
+            <h2>About Me</h2>
+          </div>
+          <div class="card-body">
+            <div class="research-visual">
+              <div class="bio-text">
+                <h1 class="lead-name"><strong>Kai Lv</strong> <small>吕凯</small></h1>
+                <p>
+                  I am an Associate Professor with the School of Computer Science and Technology at
+                  Beijing Jiaotong University. My research focuses on learning-based intelligent systems,
+                  especially embodied intelligent manipulation, multi-agent collaboration, and
+                  re-identification.
+                </p>
+                <p>
+                  My current work studies how agents understand dynamic scenes, coordinate with other
+                  agents, and make reliable decisions from visual observations. I am also interested in
+                  practical learning systems that connect perception, reasoning, and action.
+                </p>
+                <div class="quick-links" aria-label="Contact and profile links">
+                  <a href="mailto:lvkai@bjtu.edu.cn">Email</a>
+                  <a href="https://faculty.bjtu.edu.cn/10107/" rel="noopener">Official Profile</a>
+                  <a href="./zh/">Chinese Homepage</a>
+                </div>
+              </div>
+              <img
+                class="research-map"
+                src="./assets/img/research-map.svg"
+                alt="Research map covering embodied intelligence, multi-agent learning, and re-identification"
+              />
+            </div>
+            <div class="stats-grid" aria-label="Research themes">
+              <div class="mini-card">
+                <strong>3</strong>
+                <span>Core research themes</span>
+              </div>
+              <div class="mini-card">
+                <strong>2026</strong>
+                <span>Latest listed publications</span>
+              </div>
+              <div class="mini-card">
+                <strong>BJTU</strong>
+                <span>School of Computer Science and Technology</span>
+              </div>
+            </div>
+          </div>
         </section>
 
-        <section class="page-section" id="news">
-          <div class="section-heading">
+        <section class="content-card" id="news">
+          <div class="card-heading">
             <h2>News</h2>
-            <a class="small-link" href="./zh/publications/">Full publication themes</a>
+            <a href="./zh/publications/">Publication themes</a>
           </div>
-          <ol class="news-list">
-            <li>
-              <time datetime="2026-05-01">2026-05-01</time>
-              One paper on role-level inductive bias for multi-agent reinforcement learning was
-              accepted by ICML 2026.
-            </li>
-            <li>
-              <time datetime="2026-03-19">2026-03-19</time>
-              One paper on unsupervised domain adaptation was accepted by IEEE Transactions on
-              Multimedia.
-            </li>
-            <li>
-              <time datetime="2026-02-21">2026-02-21</time>
-              One paper on reinforcement learning pre-training from videos was accepted by CVPR 2026.
-            </li>
-            <li>
-              <time datetime="2025-11-09">2025-11-09</time>
-              One paper on active inference for decentralized execution was accepted by AAAI 2026.
-            </li>
-            <li>
-              <time datetime="2025-10-27">2025-10-27</time>
-              One paper on visual reinforcement learning generalization was accepted by Neural
-              Networks.
-            </li>
-            <li>
-              <time datetime="2025-08-10">2025-08-10</time>
-              One paper on robust representations for visual reinforcement learning was accepted by
-              ACM Transactions on Multimedia Computing, Communications, and Applications.
-            </li>
-            <li>
-              <time datetime="2025-06-15">2025-06-15</time>
-              One paper on reinforcement learning pre-training was accepted by ACM Multimedia 2025.
-            </li>
-            <li>
-              <time datetime="2025-04-30">2025-04-30</time>
-              One paper on continual multi-agent coordination was accepted by IJCAI 2025.
-            </li>
-            <li>
-              <time datetime="2024-12-20">2024-12-20</time>
-              One paper on offline safe reinforcement learning was accepted by AAMAS 2025.
-            </li>
-            <li>
-              <time datetime="2024-12-10">2024-12-10</time>
-              Two papers were accepted by AAAI 2025, covering vehicle re-identification and
-              communication delay-tolerant multi-agent collaboration.
-            </li>
-            <li>
-              <time datetime="2024-11-30">2024-11-30</time>
-              One paper on safe reinforcement learning was accepted by IEEE Transactions on Systems,
-              Man, and Cybernetics: Systems.
-            </li>
-          </ol>
-        </section>
-
-        <section class="page-section" id="experience">
-          <h2>Working Experience</h2>
-          <div class="timeline">
-            <article class="timeline-item">
-              <span class="timeline-date">Dec 2024 - Present</span>
-              <h3>Associate Professor</h3>
-              <p>School of Computer Science and Technology, Beijing Jiaotong University</p>
-            </article>
-            <article class="timeline-item">
-              <span class="timeline-date">Sep 2023 - Nov 2024</span>
-              <h3>Lecturer</h3>
-              <p>School of Computer Science and Technology, Beijing Jiaotong University</p>
-            </article>
-            <article class="timeline-item">
-              <span class="timeline-date">Jun 2021 - Aug 2023</span>
-              <h3>Faculty Postdoctoral Researcher</h3>
-              <p>Beijing Jiaotong University</p>
-            </article>
+          <div class="card-body">
+            <ol class="news-list">
+              <li>
+                <time datetime="2026-05-01">2026-05-01</time>
+                <span>One paper on role-level inductive bias for multi-agent reinforcement learning was accepted by ICML 2026.</span>
+              </li>
+              <li>
+                <time datetime="2026-03-19">2026-03-19</time>
+                <span>One paper on unsupervised domain adaptation was accepted by IEEE Transactions on Multimedia.</span>
+              </li>
+              <li>
+                <time datetime="2026-02-21">2026-02-21</time>
+                <span>One paper on reinforcement learning pre-training from videos was accepted by CVPR 2026.</span>
+              </li>
+              <li>
+                <time datetime="2025-11-09">2025-11-09</time>
+                <span>One paper on active inference for decentralized execution was accepted by AAAI 2026.</span>
+              </li>
+              <li>
+                <time datetime="2025-10-27">2025-10-27</time>
+                <span>One paper on visual reinforcement learning generalization was accepted by Neural Networks.</span>
+              </li>
+              <li>
+                <time datetime="2025-08-10">2025-08-10</time>
+                <span>One paper on robust representations for visual reinforcement learning was accepted by ACM Transactions on Multimedia Computing, Communications, and Applications.</span>
+              </li>
+              <li>
+                <time datetime="2025-06-15">2025-06-15</time>
+                <span>One paper on reinforcement learning pre-training was accepted by ACM Multimedia 2025.</span>
+              </li>
+              <li>
+                <time datetime="2025-04-30">2025-04-30</time>
+                <span>One paper on continual multi-agent coordination was accepted by IJCAI 2025.</span>
+              </li>
+              <li>
+                <time datetime="2024-12-20">2024-12-20</time>
+                <span>One paper on offline safe reinforcement learning was accepted by AAMAS 2025.</span>
+              </li>
+              <li>
+                <time datetime="2024-12-10">2024-12-10</time>
+                <span>Two papers were accepted by AAAI 2025, covering vehicle re-identification and communication delay-tolerant multi-agent collaboration.</span>
+              </li>
+              <li>
+                <time datetime="2024-11-30">2024-11-30</time>
+                <span>One paper on safe reinforcement learning was accepted by IEEE Transactions on Systems, Man, and Cybernetics: Systems.</span>
+              </li>
+            </ol>
           </div>
         </section>
 
-        <section class="page-section" id="publications">
-          <div class="section-heading">
-            <h2>Publications</h2>
-            <a class="small-link" href="./zh/publications/">中文论文页</a>
+        <section class="content-card" id="experience">
+          <div class="card-heading">
+            <h2>Working Experience</h2>
           </div>
-          <p class="section-intro">
-            Publications are grouped by the same research themes used on the Chinese profile page.
-          </p>
+          <div class="card-body">
+            <div class="timeline">
+              <article class="timeline-item">
+                <span class="timeline-date">Dec 2024 - Present</span>
+                <div>
+                  <h3>Associate Professor</h3>
+                  <p>School of Computer Science and Technology, Beijing Jiaotong University</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <span class="timeline-date">Sep 2023 - Nov 2024</span>
+                <div>
+                  <h3>Lecturer</h3>
+                  <p>School of Computer Science and Technology, Beijing Jiaotong University</p>
+                </div>
+              </article>
+              <article class="timeline-item">
+                <span class="timeline-date">Jun 2021 - Aug 2023</span>
+                <div>
+                  <h3>Faculty Postdoctoral Researcher</h3>
+                  <p>Beijing Jiaotong University</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-card" id="publications">
+          <div class="card-heading">
+            <h2>Selected Publications</h2>
+            <a href="./zh/publications/">中文论文页</a>
+          </div>
 
           <div class="publication-group">
-            <h3>Embodied Intelligent Manipulation</h3>
-            <div class="publication-list compact">
+            <div class="publication-group-title">
+              <h3>Embodied Intelligent Manipulation</h3>
+              <span class="tag">Visual RL</span>
+            </div>
+            <div class="publication-list">
               <article class="publication-item">
-                <span class="venue">CVPR 2026</span>
-                <h4>Local Motion Matters: A Deconstruct–Recompose Paradigm for Reinforcement Learning Pre-training from Videos</h4>
-                <p class="publication-authors">Jinwen Wang, Youfang Lin, Xiaobo Hu, Shuo Wang, <strong>Kai Lv</strong></p>
-                <p>The IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026.</p>
+                <div class="publication-cover">CVPR 2026</div>
+                <div class="publication-content">
+                  <span class="venue">CVPR 2026</span>
+                  <h4>Local Motion Matters: A Deconstruct-Recompose Paradigm for Reinforcement Learning Pre-training from Videos</h4>
+                  <p class="publication-authors">Jinwen Wang, Youfang Lin, Xiaobo Hu, Shuo Wang, <strong>Kai Lv</strong></p>
+                  <p>The IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">NN 2025</span>
-                <h4>Bidirectional Transition Consistency between Multi-Domain Observations for Visual Reinforcement Learning Generalization</h4>
-                <p class="publication-authors">Xiaobo Hu, Youfang Lin, Jinwen Wang, Yue Liu, Shuo Wang, Hehe Fan, <strong>Kai Lv*</strong></p>
-                <p>Neural Networks, 2025.</p>
+                <div class="publication-cover">NN 2025</div>
+                <div class="publication-content">
+                  <span class="venue">NN 2025</span>
+                  <h4>Bidirectional Transition Consistency between Multi-Domain Observations for Visual Reinforcement Learning Generalization</h4>
+                  <p class="publication-authors">Xiaobo Hu, Youfang Lin, Jinwen Wang, Yue Liu, Shuo Wang, Hehe Fan, <strong>Kai Lv*</strong></p>
+                  <p>Neural Networks, 2025.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">TOMM 2025</span>
-                <h4>Learning Robust Representations via Bidirectional Transition for Visual Reinforcement Learning</h4>
-                <p class="publication-authors">Xiaobo Hu, Youfang Lin, Jinwen Wang, Yue Liu, Shuo Wang, Hehe Fan, <strong>Kai Lv*</strong></p>
-                <p>ACM Transactions on Multimedia Computing, Communications and Applications, 2025.</p>
+                <div class="publication-cover">TOMM 2025</div>
+                <div class="publication-content">
+                  <span class="venue">TOMM 2025</span>
+                  <h4>Learning Robust Representations via Bidirectional Transition for Visual Reinforcement Learning</h4>
+                  <p class="publication-authors">Xiaobo Hu, Youfang Lin, Jinwen Wang, Yue Liu, Shuo Wang, Hehe Fan, <strong>Kai Lv*</strong></p>
+                  <p>ACM Transactions on Multimedia Computing, Communications and Applications, 2025.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">ACM MM 2025</span>
-                <h4>From Pixels to Temporal Correlations: Learning Informative Representations for Reinforcement Learning Pre-training</h4>
-                <p class="publication-authors">Jinwen Wang, Youfang Lin, Xiaobo Hu, Siyu Yang, Sheng Han, Shuo Wang, <strong>Kai Lv</strong></p>
-                <p>Proceedings of the 33rd ACM International Conference on Multimedia, 2025.</p>
+                <div class="publication-cover">ACM MM 2025</div>
+                <div class="publication-content">
+                  <span class="venue">ACM MM 2025</span>
+                  <h4>From Pixels to Temporal Correlations: Learning Informative Representations for Reinforcement Learning Pre-training</h4>
+                  <p class="publication-authors">Jinwen Wang, Youfang Lin, Xiaobo Hu, Siyu Yang, Sheng Han, Shuo Wang, <strong>Kai Lv</strong></p>
+                  <p>Proceedings of the 33rd ACM International Conference on Multimedia, 2025.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">IJCAI 2024</span>
-                <h4>How to Learn Domain-Invariant Representations for Visual Reinforcement Learning: An Information-Theoretical Perspective</h4>
-                <p class="publication-authors">Shuo Wang, Zhihao Wu, Xiaobo Hu, Jinwen Wang, Youfang Lin, <strong>Kai Lv*</strong></p>
-                <p>The 33rd International Joint Conference on Artificial Intelligence, 2024.</p>
+                <div class="publication-cover">IJCAI 2024</div>
+                <div class="publication-content">
+                  <span class="venue">IJCAI 2024</span>
+                  <h4>How to Learn Domain-Invariant Representations for Visual Reinforcement Learning: An Information-Theoretical Perspective</h4>
+                  <p class="publication-authors">Shuo Wang, Zhihao Wu, Xiaobo Hu, Jinwen Wang, Youfang Lin, <strong>Kai Lv*</strong></p>
+                  <p>The 33rd International Joint Conference on Artificial Intelligence, 2024.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">AAAI 2024</span>
-                <h4>What Effects the Generalization in Visual Reinforcement Learning: Policy Consistency with Truncated Return Prediction</h4>
-                <p class="publication-authors">Shuo Wang, Zhihao Wu, Xiaobo Hu, Jinwen Wang, Youfang Lin, <strong>Kai Lv*</strong></p>
-                <p>The 38th AAAI Conference on Artificial Intelligence, 2024.</p>
+                <div class="publication-cover">AAAI 2024</div>
+                <div class="publication-content">
+                  <span class="venue">AAAI 2024</span>
+                  <h4>What Effects the Generalization in Visual Reinforcement Learning: Policy Consistency with Truncated Return Prediction</h4>
+                  <p class="publication-authors">Shuo Wang, Zhihao Wu, Xiaobo Hu, Jinwen Wang, Youfang Lin, <strong>Kai Lv*</strong></p>
+                  <p>The 38th AAAI Conference on Artificial Intelligence, 2024.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">TOMM 2024</span>
-                <h4>Building Category Graphs Representation with Spatial and Temporal Attention for Visual Navigation</h4>
-                <p class="publication-authors">Xiaobo Hu, Youfang Lin, Hehe Fan, Shuo Wang, Zhihao Wu, <strong>Kai Lv*</strong></p>
-                <p>ACM Transactions on Multimedia Computing, Communications and Applications, 2024.</p>
+                <div class="publication-cover">TOMM 2024</div>
+                <div class="publication-content">
+                  <span class="venue">TOMM 2024</span>
+                  <h4>Building Category Graphs Representation with Spatial and Temporal Attention for Visual Navigation</h4>
+                  <p class="publication-authors">Xiaobo Hu, Youfang Lin, Hehe Fan, Shuo Wang, Zhihao Wu, <strong>Kai Lv*</strong></p>
+                  <p>ACM Transactions on Multimedia Computing, Communications and Applications, 2024.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">TCSVT 2023</span>
-                <h4>Agent-Centric Relation Graph for Object Visual Navigation</h4>
-                <p class="publication-authors">Xiaobo Hu, Youfang Lin, Shuo Wang, Zhihao Wu, <strong>Kai Lv*</strong></p>
-                <p>IEEE Transactions on Circuits and Systems for Video Technology, 2023.</p>
+                <div class="publication-cover">TCSVT 2023</div>
+                <div class="publication-content">
+                  <span class="venue">TCSVT 2023</span>
+                  <h4>Agent-Centric Relation Graph for Object Visual Navigation</h4>
+                  <p class="publication-authors">Xiaobo Hu, Youfang Lin, Shuo Wang, Zhihao Wu, <strong>Kai Lv*</strong></p>
+                  <p>IEEE Transactions on Circuits and Systems for Video Technology, 2023.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">TMM 2023</span>
-                <h4>Skill-based Hierarchical Reinforcement Learning for Target Visual Navigation</h4>
-                <p class="publication-authors">Shuo Wang, Zhihao Wu, Xiaobo Hu, Youfang Lin, <strong>Kai Lv*</strong></p>
-                <p>IEEE Transactions on Multimedia, 2023.</p>
+                <div class="publication-cover">TMM 2023</div>
+                <div class="publication-content">
+                  <span class="venue">TMM 2023</span>
+                  <h4>Skill-based Hierarchical Reinforcement Learning for Target Visual Navigation</h4>
+                  <p class="publication-authors">Shuo Wang, Zhihao Wu, Xiaobo Hu, Youfang Lin, <strong>Kai Lv*</strong></p>
+                  <p>IEEE Transactions on Multimedia, 2023.</p>
+                </div>
               </article>
             </div>
           </div>
 
           <div class="publication-group">
-            <h3>Multi-Agent Collaboration</h3>
-            <div class="publication-list compact">
+            <div class="publication-group-title">
+              <h3>Multi-Agent Collaboration</h3>
+              <span class="tag">MARL</span>
+            </div>
+            <div class="publication-list">
               <article class="publication-item">
-                <span class="venue">ICML 2026</span>
-                <h4>Role-Level Inductive Bias for Cross-Task Generalization in Multi-Agent Reinforcement Learning</h4>
-                <p class="publication-authors">Chang Yao, Youfang Lin, Shoucheng Song, Hao Wu, Yuqing Ma, <strong>Kai Lv*</strong></p>
-                <p>The Forty-third International Conference on Machine Learning, 2026.</p>
+                <div class="publication-cover alt">ICML 2026</div>
+                <div class="publication-content">
+                  <span class="venue">ICML 2026</span>
+                  <h4>Role-Level Inductive Bias for Cross-Task Generalization in Multi-Agent Reinforcement Learning</h4>
+                  <p class="publication-authors">Chang Yao, Youfang Lin, Shoucheng Song, Hao Wu, Yuqing Ma, <strong>Kai Lv*</strong></p>
+                  <p>The Forty-third International Conference on Machine Learning, 2026.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">AAAI 2026</span>
-                <h4>Think How Your Teammates Think: Active Inference Can Benefit Decentralized Execution</h4>
-                <p class="publication-authors">Hao Wu, Shoucheng Song, Chang Yao, Sheng Han, Huaiyu Wan, Youfang Lin, <strong>Kai Lv*</strong></p>
-                <p>The 40th AAAI Conference on Artificial Intelligence, 2026.</p>
+                <div class="publication-cover alt">AAAI 2026</div>
+                <div class="publication-content">
+                  <span class="venue">AAAI 2026</span>
+                  <h4>Think How Your Teammates Think: Active Inference Can Benefit Decentralized Execution</h4>
+                  <p class="publication-authors">Hao Wu, Shoucheng Song, Chang Yao, Sheng Han, Huaiyu Wan, Youfang Lin, <strong>Kai Lv*</strong></p>
+                  <p>The 40th AAAI Conference on Artificial Intelligence, 2026.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">IJCAI 2025</span>
-                <h4>From General Relation Patterns to Task-Specific Decision-Making in Continual Multi-Agent Coordination</h4>
-                <p class="publication-authors">Chang Yao, Youfang Lin, Shoucheng Song, Hao Wu, Yuqing Ma, Sheng Han, <strong>Kai Lv*</strong></p>
-                <p>The 34th International Joint Conference on Artificial Intelligence, 2025.</p>
+                <div class="publication-cover alt">IJCAI 2025</div>
+                <div class="publication-content">
+                  <span class="venue">IJCAI 2025</span>
+                  <h4>From General Relation Patterns to Task-Specific Decision-Making in Continual Multi-Agent Coordination</h4>
+                  <p class="publication-authors">Chang Yao, Youfang Lin, Shoucheng Song, Hao Wu, Yuqing Ma, Sheng Han, <strong>Kai Lv*</strong></p>
+                  <p>The 34th International Joint Conference on Artificial Intelligence, 2025.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">AAAI 2025</span>
-                <h4>CoDe: Communication Delay-Tolerant Multi-Agent Collaboration via Dual Alignment of Intent and Timeliness</h4>
-                <p class="publication-authors">Shoucheng Song, Youfang Lin, Sheng Han, Chang Yao, Hao Wu, Shuo Wang, <strong>Kai Lv*</strong></p>
-                <p>The 39th AAAI Conference on Artificial Intelligence, 2025.</p>
+                <div class="publication-cover alt">AAAI 2025</div>
+                <div class="publication-content">
+                  <span class="venue">AAAI 2025</span>
+                  <h4>CoDe: Communication Delay-Tolerant Multi-Agent Collaboration via Dual Alignment of Intent and Timeliness</h4>
+                  <p class="publication-authors">Shoucheng Song, Youfang Lin, Sheng Han, Chang Yao, Hao Wu, Shuo Wang, <strong>Kai Lv*</strong></p>
+                  <p>The 39th AAAI Conference on Artificial Intelligence, 2025.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">TSMC-S 2025</span>
-                <h4>Off-policy Conservative Distributional Reinforcement Learning with Safety Constraints</h4>
-                <p class="publication-authors">Hengrui Zhang, Youfang Lin, Shuo Shen, Sheng Han, <strong>Kai Lv*</strong></p>
-                <p>IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2025.</p>
+                <div class="publication-cover alt">TSMC-S 2025</div>
+                <div class="publication-content">
+                  <span class="venue">TSMC-S 2025</span>
+                  <h4>Off-policy Conservative Distributional Reinforcement Learning with Safety Constraints</h4>
+                  <p class="publication-authors">Hengrui Zhang, Youfang Lin, Shuo Shen, Sheng Han, <strong>Kai Lv*</strong></p>
+                  <p>IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2025.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">AAAI 2024</span>
-                <h4>Enhancing Off-policy Constrained Reinforcement Learning through Adaptive Ensemble C Estimation</h4>
-                <p class="publication-authors">Hengrui Zhang, Youfang Lin, Shuo Shen, Sheng Han, <strong>Kai Lv*</strong></p>
-                <p>The 38th AAAI Conference on Artificial Intelligence, 2024.</p>
+                <div class="publication-cover alt">AAAI 2024</div>
+                <div class="publication-content">
+                  <span class="venue">AAAI 2024</span>
+                  <h4>Enhancing Off-policy Constrained Reinforcement Learning through Adaptive Ensemble C Estimation</h4>
+                  <p class="publication-authors">Hengrui Zhang, Youfang Lin, Shuo Shen, Sheng Han, <strong>Kai Lv*</strong></p>
+                  <p>The 38th AAAI Conference on Artificial Intelligence, 2024.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">KSEM 2023</span>
-                <h4>Offline Reinforcement Learning with Diffusion-Based Behavior Cloning Term</h4>
-                <p class="publication-authors">Han Wang, Youfang Lin, Sheng Han, <strong>Kai Lv*</strong></p>
-                <p>The 16th International Conference on Knowledge Science, Engineering and Management, 2023.</p>
+                <div class="publication-cover alt">KSEM 2023</div>
+                <div class="publication-content">
+                  <span class="venue">KSEM 2023</span>
+                  <h4>Offline Reinforcement Learning with Diffusion-Based Behavior Cloning Term</h4>
+                  <p class="publication-authors">Han Wang, Youfang Lin, Sheng Han, <strong>Kai Lv*</strong></p>
+                  <p>The 16th International Conference on Knowledge Science, Engineering and Management, 2023.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">TVT 2022</span>
-                <h4>Lexicographic Actor-Critic Deep Reinforcement Learning for Urban Autonomous Driving</h4>
-                <p class="publication-authors">Hengrui Zhang, Youfang Lin, Sheng Han, <strong>Kai Lv*</strong></p>
-                <p>IEEE Transactions on Vehicular Technology, 2022.</p>
+                <div class="publication-cover alt">TVT 2022</div>
+                <div class="publication-content">
+                  <span class="venue">TVT 2022</span>
+                  <h4>Lexicographic Actor-Critic Deep Reinforcement Learning for Urban Autonomous Driving</h4>
+                  <p class="publication-authors">Hengrui Zhang, Youfang Lin, Sheng Han, <strong>Kai Lv*</strong></p>
+                  <p>IEEE Transactions on Vehicular Technology, 2022.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">Connection Science 2022</span>
-                <h4>A Lightweight and Style-Robust Neural Network for Autonomous Driving in End Side Devices</h4>
-                <p class="publication-authors">Sheng Han, Youfang Lin, Zhihui Guo, <strong>Kai Lv*</strong></p>
-                <p>Connection Science, 2022.</p>
+                <div class="publication-cover alt">Connection Science 2022</div>
+                <div class="publication-content">
+                  <span class="venue">Connection Science 2022</span>
+                  <h4>A Lightweight and Style-Robust Neural Network for Autonomous Driving in End Side Devices</h4>
+                  <p class="publication-authors">Sheng Han, Youfang Lin, Zhihui Guo, <strong>Kai Lv*</strong></p>
+                  <p>Connection Science, 2022.</p>
+                </div>
               </article>
             </div>
           </div>
 
           <div class="publication-group">
-            <h3>Object Re-Identification</h3>
-            <div class="publication-list compact">
+            <div class="publication-group-title">
+              <h3>Object Re-Identification</h3>
+              <span class="tag">Re-ID</span>
+            </div>
+            <div class="publication-list">
               <article class="publication-item">
-                <span class="venue">TMM 2026</span>
-                <h4>Let Confidence Speak: Combining Small and Large Models via Pseudo Labeling for Unsupervised Domain Adaptation</h4>
-                <p class="publication-authors">Huiqi Yang, Ying Shu, Hehe Fan, Youfang Lin, <strong>Kai Lv*</strong></p>
-                <p>IEEE Transactions on Multimedia, 2026.</p>
+                <div class="publication-cover warm">TMM 2026</div>
+                <div class="publication-content">
+                  <span class="venue">TMM 2026</span>
+                  <h4>Let Confidence Speak: Combining Small and Large Models via Pseudo Labeling for Unsupervised Domain Adaptation</h4>
+                  <p class="publication-authors">Huiqi Yang, Ying Shu, Hehe Fan, Youfang Lin, <strong>Kai Lv*</strong></p>
+                  <p>IEEE Transactions on Multimedia, 2026.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">AAAI 2025</span>
-                <h4>Infer the Whole from a Glimpse of a Part: Keypoint-based Knowledge Graph for Vehicle Re-identification</h4>
-                <p class="publication-authors"><strong>Kai Lv</strong>, Yunlong Li, Zhuo Chen, Shuo Wang, Sheng Han, Youfang Lin*</p>
-                <p>The 39th AAAI Conference on Artificial Intelligence, 2025.</p>
+                <div class="publication-cover warm">AAAI 2025</div>
+                <div class="publication-content">
+                  <span class="venue">AAAI 2025</span>
+                  <h4>Infer the Whole from a Glimpse of a Part: Keypoint-based Knowledge Graph for Vehicle Re-identification</h4>
+                  <p class="publication-authors"><strong>Kai Lv</strong>, Yunlong Li, Zhuo Chen, Shuo Wang, Sheng Han, Youfang Lin*</p>
+                  <p>The 39th AAAI Conference on Artificial Intelligence, 2025.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">TOMM 2024</span>
-                <h4>Style Variable and Irrelevant Learning for Generalizable Person Re-identification</h4>
-                <p class="publication-authors"><strong>Kai Lv</strong>, Haobo Chen, Chuyang Zhao, Kai Tu, Junru Chen, Yadong Li, Boxun Li, Youfang Lin*</p>
-                <p>ACM Transactions on Multimedia Computing, Communications and Applications, 2024.</p>
+                <div class="publication-cover warm">TOMM 2024</div>
+                <div class="publication-content">
+                  <span class="venue">TOMM 2024</span>
+                  <h4>Style Variable and Irrelevant Learning for Generalizable Person Re-identification</h4>
+                  <p class="publication-authors"><strong>Kai Lv</strong>, Haobo Chen, Chuyang Zhao, Kai Tu, Junru Chen, Yadong Li, Boxun Li, Youfang Lin*</p>
+                  <p>ACM Transactions on Multimedia Computing, Communications and Applications, 2024.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">TITS 2023</span>
-                <h4>Spatially-Regularized Features for Vehicle Re-identification: An Explanation of Where Deep Models Should Focus</h4>
-                <p class="publication-authors"><strong>Kai Lv</strong>, Shuo Wang, Shuai Han, Youfang Lin*</p>
-                <p>IEEE Transactions on Intelligent Transportation Systems, 2023.</p>
+                <div class="publication-cover warm">TITS 2023</div>
+                <div class="publication-content">
+                  <span class="venue">TITS 2023</span>
+                  <h4>Spatially-Regularized Features for Vehicle Re-identification: An Explanation of Where Deep Models Should Focus</h4>
+                  <p class="publication-authors"><strong>Kai Lv</strong>, Shuo Wang, Shuai Han, Youfang Lin*</p>
+                  <p>IEEE Transactions on Intelligent Transportation Systems, 2023.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">IJCAI Workshop 2023</span>
-                <h4>Generalization between Different Viewpoints with A Feature Selection Method for Vehicle Re-identification</h4>
-                <p class="publication-authors"><strong>Kai Lv</strong>, Shuai Han, Youfang Lin</p>
-                <p>32nd International Joint Conference on Artificial Intelligence Workshop, 2023.</p>
+                <div class="publication-cover warm">IJCAI Workshop 2023</div>
+                <div class="publication-content">
+                  <span class="venue">IJCAI Workshop 2023</span>
+                  <h4>Generalization between Different Viewpoints with A Feature Selection Method for Vehicle Re-identification</h4>
+                  <p class="publication-authors"><strong>Kai Lv</strong>, Shuai Han, Youfang Lin</p>
+                  <p>32nd International Joint Conference on Artificial Intelligence Workshop, 2023.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">TIP 2020</span>
-                <h4>Pose-Based View Synthesis for Vehicles: A Perspective Aware Method</h4>
-                <p class="publication-authors"><strong>Kai Lv</strong>, Hao Sheng, Zhang Xiong, Wei Li, Liang Zheng</p>
-                <p>IEEE Transactions on Image Processing, 2020.</p>
+                <div class="publication-cover warm">TIP 2020</div>
+                <div class="publication-content">
+                  <span class="venue">TIP 2020</span>
+                  <h4>Pose-Based View Synthesis for Vehicles: A Perspective Aware Method</h4>
+                  <p class="publication-authors"><strong>Kai Lv</strong>, Hao Sheng, Zhang Xiong, Wei Li, Liang Zheng</p>
+                  <p>IEEE Transactions on Image Processing, 2020.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">TMM 2020</span>
-                <h4>Improving Driver Gaze Prediction with Reinforced Attention</h4>
-                <p class="publication-authors"><strong>Kai Lv</strong>, Hao Sheng, Zhang Xiong, Wei Li, Liang Zheng</p>
-                <p>IEEE Transactions on Multimedia, 2020.</p>
+                <div class="publication-cover warm">TMM 2020</div>
+                <div class="publication-content">
+                  <span class="venue">TMM 2020</span>
+                  <h4>Improving Driver Gaze Prediction with Reinforced Attention</h4>
+                  <p class="publication-authors"><strong>Kai Lv</strong>, Hao Sheng, Zhang Xiong, Wei Li, Liang Zheng</p>
+                  <p>IEEE Transactions on Multimedia, 2020.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">JIOT 2020</span>
-                <h4>Combining Pose Invariant and Discriminative Features for Vehicle Reidentification</h4>
-                <p class="publication-authors">Hao Sheng, <strong>Kai Lv*</strong>, Yang Liu, Wei Ke, Weifeng Lyu, Zhang Xiong, Wei Li</p>
-                <p>IEEE Internet of Things Journal, 2020.</p>
+                <div class="publication-cover warm">JIOT 2020</div>
+                <div class="publication-content">
+                  <span class="venue">JIOT 2020</span>
+                  <h4>Combining Pose Invariant and Discriminative Features for Vehicle Reidentification</h4>
+                  <p class="publication-authors">Hao Sheng, <strong>Kai Lv*</strong>, Yang Liu, Wei Ke, Weifeng Lyu, Zhang Xiong, Wei Li</p>
+                  <p>IEEE Internet of Things Journal, 2020.</p>
+                </div>
               </article>
               <article class="publication-item">
-                <span class="venue">CVPR Workshops 2019</span>
-                <h4>Vehicle Re-Identification with Location and Time Stamps</h4>
-                <p class="publication-authors"><strong>Kai Lv</strong>, Heming Du, Yunzhong Hou, Weijian Deng, Hao Sheng, Jianbin Jiao, Liang Zheng</p>
-                <p>CVPR Workshops, 2019.</p>
+                <div class="publication-cover warm">CVPR Workshops 2019</div>
+                <div class="publication-content">
+                  <span class="venue">CVPR Workshops 2019</span>
+                  <h4>Vehicle Re-Identification with Location and Time Stamps</h4>
+                  <p class="publication-authors"><strong>Kai Lv</strong>, Heming Du, Yunzhong Hou, Weijian Deng, Hao Sheng, Jianbin Jiao, Liang Zheng</p>
+                  <p>CVPR Workshops, 2019.</p>
+                </div>
               </article>
             </div>
           </div>
@@ -338,7 +470,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>© <span data-current-year></span> Kai Lv. Last updated for the first static homepage version.</p>
+      <p>© <span data-current-year></span> Kai Lv. Academic homepage.</p>
     </footer>
   </body>
 </html>

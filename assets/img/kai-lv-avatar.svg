@@ -1,14 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
   <title id="title">Kai Lv profile mark</title>
-  <desc id="desc">A simple profile mark with the initials KL.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#eef4f0" />
-      <stop offset="1" stop-color="#f5f1e8" />
-    </linearGradient>
-  </defs>
-  <rect width="240" height="240" rx="120" fill="url(#bg)" />
-  <path d="M54 168V72h18v43l40-43h23l-43 45 47 51h-24l-43-47v47H54Z" fill="#1f4d3e" />
-  <path d="M148 168V72h18v80h42v16h-60Z" fill="#8a4b39" />
-  <circle cx="120" cy="120" r="112" fill="none" stroke="#d9ded6" stroke-width="3" />
+  <desc id="desc">A simple academic profile mark with the initials KL.</desc>
+  <rect width="240" height="240" rx="24" fill="#f3f6fb" />
+  <circle cx="72" cy="68" r="30" fill="#dbeafe" />
+  <circle cx="178" cy="172" r="42" fill="#e7f1ff" />
+  <path d="M50 168V72h18v43l40-43h23l-43 45 47 51h-24l-43-47v47H50Z" fill="#0a58ca" />
+  <path d="M146 168V72h18v80h42v16h-60Z" fill="#475569" />
+  <rect x="14" y="14" width="212" height="212" rx="20" fill="none" stroke="#dee2e6" stroke-width="3" />
 </svg>
